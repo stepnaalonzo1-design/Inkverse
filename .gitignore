@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+
+# Environment and secrets (never commit these)
+.env
+.env.*
+!.env.example
+
+# Runtime uploads (covers, pages and avatars). Back this folder up in production.
+uploads/
+
+# Logs and misc
+*.log
+.DS_Store
